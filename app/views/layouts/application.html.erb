@@ -35,13 +35,13 @@
           <%= link_to "Home", "/" %> 
         </li>
         <li>
-          <%= link_to "About", "home/about" %> 
+          <%= link_to "About", homes_about_path %> 
         </li>
         <li>
-          <%= link_to "Sign up", "users/sign_up" %>
+          <%= link_to "Sign up", new_user_registration_path %>
         </li>
         <li>
-          <%= link_to "Log in", "users/sign_in" %>
+          <%= link_to "Log in", new_user_session_path %>
         </li>
       <% end %>
     </header>
